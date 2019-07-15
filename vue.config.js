@@ -19,7 +19,7 @@ const productionGzipExtensions = ['js', 'css']
 
 
 module.exports = {
-  publicPath: '/', //基本路径
+  publicPath: './', //基本路径
   outputDir: 'dist',
   productionSourceMap: false,
   assetsDir: 'static',
